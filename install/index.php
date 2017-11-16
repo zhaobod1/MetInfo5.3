@@ -15,7 +15,7 @@ if(PHP_VERSION < '4.1.0') {
 }
 
 
-phpinfo();die;
+//phpinfo();die;
 function randStr($i){
   $str = "abcdefghijklmnopqrstuvwxyz";
   $finalStr = "";
