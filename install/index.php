@@ -13,6 +13,9 @@ if(PHP_VERSION < '4.1.0') {
 	$_ENV         = &$HTTP_ENV_VARS;
 	$_FILES       = &$HTTP_POST_FILES;
 }
+
+
+phpinfo();
 function randStr($i){
   $str = "abcdefghijklmnopqrstuvwxyz";
   $finalStr = "";
