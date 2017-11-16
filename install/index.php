@@ -15,6 +15,11 @@ if(PHP_VERSION < '4.1.0') {
 }
 
 
+
+
+function fuck(){
+
+}
 //phpinfo();die;
 //fuck
 function randStr($i){
